@@ -1,5 +1,14 @@
 #include "printf.h"
 
+/**
+ * _printf - Produces output according to a format
+ * @format: Is a character string. The format string
+ * is composed of zero or more directives
+ *
+ * Return: The number of characters printed (excluding
+**/
+
+
 int _printf(const char *format, ...)
 {
 	int size;
