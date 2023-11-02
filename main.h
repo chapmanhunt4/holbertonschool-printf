@@ -5,11 +5,8 @@
 
 typedef struct format
 {
-<<<<<<< HEAD
 	char *type
 	int (*f)(va_list list);
-=======
->>>>>>> 35352f8a223962f840a45e35ab09a4aa5308f365
 } format;
 
 int _printf(const char *format, ...);
