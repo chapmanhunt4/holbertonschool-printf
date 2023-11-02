@@ -1,6 +1,6 @@
 #include "main.h"
 #include <stdlib.h>
-#include <stdio.h.
+#include <stdio.h>
 
 int print(const char *str, va_list list)
 {
