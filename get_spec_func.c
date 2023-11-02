@@ -5,6 +5,8 @@
 
 int (*get_spec_func(char *str, va_list list, int *i))
 {
+	int size, j, number_formats;
+
 	format formats[] = {
 		{"c", print_char},
 		{"s", print_string},
