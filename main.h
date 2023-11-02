@@ -5,7 +5,7 @@
 
 typedef struct format
 {
-	char *type
+	char *type;
 	int (*f)(va_list list);
 } format;
 
