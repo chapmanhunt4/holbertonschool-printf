@@ -4,8 +4,13 @@
 
 typedef struct _format
 {
+<<<<<<< HEAD
 	char *type;
 	int (*func)(va_list list);
+=======
+	char *type
+	int (*f)(va_list list);
+>>>>>>> refs/remotes/origin/chapmans_branch
 } format;
 
 int _printf(const char *format, ...);
