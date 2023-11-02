@@ -1,9 +1,10 @@
 #ifndef MAIN
 #define MAIN
+#include <stdarg.h>
 
 typedef struct _format
 {
-	char *type
+	char *type;
 	int (*func)(va_list list);
 } format;
 
