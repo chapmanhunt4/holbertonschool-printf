@@ -7,8 +7,11 @@ int (*get_spec_func(char *str))(va_list list)
 	format specs[] = {
 		{"c", print_char},
 		{"s", print_string},
+<<<<<<< HEAD
 		{"d", print_dec},
 		{"i", print_int}
+=======
+>>>>>>> refs/remotes/origin/chapmans_branch
 	};
 
 	*i = *i + 1;
