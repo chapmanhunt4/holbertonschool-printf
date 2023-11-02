@@ -1,4 +1,4 @@
-#include "printf.h"
+#include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -8,7 +8,7 @@ int (*get_spec_func(char *str))(va_list list)
 		{"c", print_char},
 		{"s", print_string},
 		{"d", print_dec},
-		{"i", print_int},
+		{"i", print_int}
 	};
 
 	*i = *i + 1;
