@@ -18,7 +18,7 @@ int _printf(const char *format, ...)
 	if (format == NULL)
 		return (-1);
 
-	size = _strlen(format);
+	size = strlen(format);
 	if (size <= 0)
 		return (0);
 
