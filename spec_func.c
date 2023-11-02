@@ -21,3 +21,21 @@ int print_char(va_list list)
 
 	return (1);
 }
+
+/**
+ * print_string - prints string
+ * @list: va_list
+ *
+ * Return: 1
+ **/
+
+int print_string(va_list list)
+{
+	int str;
+
+	str = va_arg(list, char *);
+
+	_putchar(str);
+
+	return (1);
+}
