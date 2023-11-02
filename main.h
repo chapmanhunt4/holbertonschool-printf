@@ -1,16 +1,12 @@
 #ifndef MAIN
 #define MAIN
 #include <stdarg.h>
+#include <stddef.h>
 
-typedef struct _format
+typedef struct format
 {
-<<<<<<< HEAD
-	char *type;
-	int (*func)(va_list list);
-=======
 	char *type
 	int (*f)(va_list list);
->>>>>>> refs/remotes/origin/chapmans_branch
 } format;
 
 int _printf(const char *format, ...);
