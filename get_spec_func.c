@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <stdarg.h>
 
-int get_spec_func(char *str, va_list list, int i)
+int get_spec_func(char *str, va_list, int i)
 {
 	int size;
 

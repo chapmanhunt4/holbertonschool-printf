@@ -13,7 +13,7 @@ int _printf(const char *format, ...);
 
 int _putchar(char c);
 
-int get_spec_func(char *str, va_list list, int i);
+int get_spec_func(char *str, va_list, int i);
 
 int print(const char *str, va_list list);
 
