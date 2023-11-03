@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <stdarg.h>
 
-int (*get_spec_func(char *str, va_list list, int *i))
+int (*get_spec_func(char *str, va_list list, int i))
 {
 	int size, j, number_formats;
 
@@ -12,13 +12,13 @@ int (*get_spec_func(char *str, va_list list, int *i))
 		{"s", print_string},
 	};
 
-	*i = *i + 1;
+	i = i + 1;
 
-	if (str[*i] == '\0')
+	if (str[i] == '\0')
 	{
 		return (-1)
 	}
-	if (str[*i] == '%')
+	if (str[i] == '%')
 	{
 		_putchar('%');
 		return (1);
@@ -27,13 +27,13 @@ int (*get_spec_func(char *str, va_list list, int *i))
 	number_formats = sizeof(formats) / sizeof(formats[0]);
 	for (size = j = 0; j < number_formats; j++)
 	{
-		if (str[*i] == formats[j].type)
+		if (str[i] == formats[j].type)
 		{
 			size = formats[j].f(list);
 			return (size);
 		}
 	}
-	_putchar('%'), _putchar(str[*i]);
+	_putchar('%'), _putchar(str[i]);
 
 	return (2);
 }
