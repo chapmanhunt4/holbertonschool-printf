@@ -11,11 +11,11 @@
  * Return: 1
  **/
 
-int print_char(va_list list)
+int print_char(va_list)
 {
 	int c;
 
-	c = va_arg(list, int);
+	c = va_arg(va_list, int);
 
 	_putchar((char)c);
 
@@ -29,11 +29,11 @@ int print_char(va_list list)
  * Return: 1
  **/
 
-int print_string(va_list list)
+int print_string(va_list)
 {
 	int str;
 
-	str = va_arg(list, char *);
+	str = va_arg(va_list, char *);
 
 	_putchar(str);
 
