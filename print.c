@@ -11,7 +11,7 @@ int print(const char *str, va_list list)
 	{
 		if (str[i] == '%')
 		{
-			per = get_spec_func(str, list, &i);
+			per = get_spec_func(str, list, i);
 			if (per == -1)
 				return (-1);
 
