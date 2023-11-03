@@ -29,7 +29,7 @@ int get_spec_func(char *str, va_list list, int i)
 	{
 		if (str[i] == formats[j].type)
 		{
-			size = formats[j].f(list);
+			size = formats[j].f(args);
 			return (size);
 		}
 	}
