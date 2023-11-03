@@ -5,7 +5,7 @@
 
 int get_spec_func(char *str, va_list list, int i)
 {
-	int size, j, number_formats;
+	int size;
 
 	format formats[] = {
 		{"c", print_char},
@@ -24,12 +24,11 @@ int get_spec_func(char *str, va_list list, int i)
 		return (1);
 	}
 
-	number_formats = sizeof(formats) / sizeof(formats[0]);
-	for (size = j = 0; j < number_formats; j++)
+	while (str[i] != '\0')
 	{
-		if (str[i] == formats[j].type)
+		if (str[i] == formats[i].type)
 		{
-			size = formats[j].f(args);
+			size = formats[i].f(args);
 			return (size);
 		}
 	}
