@@ -6,7 +6,7 @@
 typedef struct format
 {
 	char *type;
-	int (*f)(va_list list);
+	int (*f)(va_list);
 } format;
 
 int _printf(const char *format, ...);
