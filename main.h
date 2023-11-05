@@ -9,9 +9,11 @@ typedef struct format
 	int (*f)(va_list);
 } format;
 
-int _printf(const char *format, ...);
+int _printf(char *format, ...);
 
-int _putchar(char c);
+int _putchar(char *c);
+
+int _strlen(const char *str);
 
 int get_spec_func(char *str, va_list, int i);
 
