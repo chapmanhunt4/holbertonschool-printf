@@ -35,7 +35,7 @@ int print_string(va_list args)
 
 	str = va_arg(args, char *);
 
-	_putchar(str);
+	_putchar(*str);
 
 	return (1);
 }
