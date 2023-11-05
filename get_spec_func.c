@@ -32,7 +32,6 @@ int get_spec_func(char *str, va_list, int i)
 			size = formats[j].f(args);
 			return (size);
 		}
-		i++;
 	}
 	_putchar('%'), _putchar(str[i]);
 
