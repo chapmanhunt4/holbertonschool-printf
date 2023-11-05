@@ -10,7 +10,7 @@
 **/
 
 
-int _printf(const char *format, ...)
+int _printf(char *format, ...)
 {
 	int size;
 	va_list args;
