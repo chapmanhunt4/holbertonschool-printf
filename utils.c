@@ -11,7 +11,7 @@
 
 int _putchar(char c)
 {
-	write(1, &c, 1);
+	return write(1, &c, 1);
 }
 
 int _strlen(const char *str)
@@ -20,6 +20,8 @@ int _strlen(const char *str)
 
 	for (i = 0; str[i] != '\0'; i++)
 	{
-		return (i);
+
 	}
+
+	return (i);
 }
