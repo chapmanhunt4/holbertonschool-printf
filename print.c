@@ -1,8 +1,10 @@
 #include "main.h"
 #include <stdlib.h>
 #include <stdio.h>
+#include <unistd.h>
+#include <limits.h>
 
-int print(const char *str, va_list list)
+int print(char *str, va_list args)
 {
 	int size, i, per;
 
@@ -11,7 +13,7 @@ int print(const char *str, va_list list)
 	{
 		if (str[i] == '%')
 		{
-			per = get_spec_func(str, list, i);
+			per = get_spec_func(str, args, i);
 			if (per == -1)
 				return (-1);
 
