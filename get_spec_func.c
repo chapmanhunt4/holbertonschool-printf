@@ -6,7 +6,7 @@
 int get_spec_func(char *str, va_list, int i)
 {
 	int size;
-	int j;
+	long unsigned int j;
 
 	format formats[] = {
 		{"c", print_char},
