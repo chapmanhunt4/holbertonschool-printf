@@ -31,7 +31,7 @@ int print_char(va_list args)
 
 int print_string(va_list args)
 {
-	int str;
+	char *str;
 
 	str = va_arg(args, char *);
 
