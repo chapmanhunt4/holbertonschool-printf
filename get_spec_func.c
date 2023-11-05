@@ -6,6 +6,7 @@
 int get_spec_func(char *str, va_list, int i)
 {
 	int size;
+	int j;
 
 	format formats[] = {
 		{"c", print_char},
@@ -24,13 +25,14 @@ int get_spec_func(char *str, va_list, int i)
 		return (1);
 	}
 
-	while (str[i] != '\0')
+	for (j = 0; j < sizeof(formats) / sizeof(formats[0]); j++)
 	{
-		if (str[i] == formats[i].type)
+		if (str[i] == formats[j].type)
 		{
-			size = formats[i].f(args);
+			size = formats[j].f(args);
 			return (size);
 		}
+		i++;
 	}
 	_putchar('%'), _putchar(str[i]);
 
