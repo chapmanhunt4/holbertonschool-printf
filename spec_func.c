@@ -67,9 +67,11 @@ int print_string(va_list args)
 
 int print_digit(va_list args)
 {
-	int digit;
+	int digit, i;
+	int size = 0;
 
 	digit = va_arg(args, int);
+
 	size = sizeof(digit);
 	for (i = 0; i < size; i++)
 	{
