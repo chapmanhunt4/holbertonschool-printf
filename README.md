@@ -1,10 +1,4 @@
-
-
-
-https://github.com/chapmanhunt4/holbertonschool-printf/assets/143765559/fb51a527-be0a-462e-86c8-abf5c5337885
-
-
-
+![Printf](https://github.com/chapmanhunt4/holbertonschool-printf/assets/143765559/b146880a-c9a2-4cfd-972f-8ee6c527cd09)
 
 
 
