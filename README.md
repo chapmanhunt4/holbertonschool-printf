@@ -21,12 +21,12 @@
     </thead>
      <thead>
         <tr>
-            <th align="left">%c</th>
+            <th align="left">%d</th>
         </tr>
     </thead>
      <thead>
         <tr>
-            <th align="left">%c</th>
+            <th align="left">%i</th>
         </tr>
     </thead>
 </table>
