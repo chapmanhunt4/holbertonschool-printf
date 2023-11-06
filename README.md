@@ -9,6 +9,7 @@
   
 - `Introduction`: <i>An introduction to our custom printf function</i>
 - `Format Specifiers`: <i>The format specifiers that are used in our code</i>
+- `Headers`: <i>The Headers we implemented</i>
 - `FlowChart`: <i>A flow chart explaining the execution process of our function</i></details>
 
 
@@ -23,7 +24,7 @@
 
 <h2>List of header files</h2>
 
-| Format Specifiers | |
+| Headers | |
 | ------------- | ------------- |
 | %s  | Format / Print Strings  |
 | %c  | Format / Print Characters  |
