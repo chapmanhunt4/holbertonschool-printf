@@ -45,14 +45,16 @@ int print_string(va_list args)
 		{ 
 			_putchar(str[i]);
 		}
+	}
 	else
+	{
 		str = "(null)";
 		for (i=0; str[i] != '\0'; i++)
 		{
 			_putchar(str[i]);
 		}
 	}
-	return(size)
+	return (size);
 	size++;
 }
 
