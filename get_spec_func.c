@@ -5,11 +5,18 @@
 #include <limits.h>
 #include <unistd.h>
 #include <string.h>
+/*
+ * get_spec_func - gets proper format specifier
+ * @str: string being printed
+ * @args: va list
+ * @i: char at a place in the string
+ * Return: -1 on error, or 1 or 2
+ **/
 
 int get_spec_func(char *str, va_list args, int i)
 {
 	int size;
-	long unsigned int j;
+	unsigned long int j;
 
 	format formats[] = {
 		{"c", print_char},

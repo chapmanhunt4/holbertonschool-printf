@@ -8,7 +8,7 @@
 
 /**
  * print_char - prints char
- * @list: va_list
+ * @args: va_list
  *
  * Return: 1
  **/
@@ -26,7 +26,7 @@ int print_char(va_list args)
 
 /**
  * print_string - prints string
- * @list: va_list
+ * @args: va_list
  *
  * Return: 1
  **/

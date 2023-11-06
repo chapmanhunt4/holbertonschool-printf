@@ -13,8 +13,14 @@
 
 int _putchar(char c)
 {
-	return write(1, &c, 1);
+	return (write(1, &c, 1));
 }
+
+/**
+ * _strlen - prints string to stdout
+ * @str: string to be printed
+ * Return: string
+ **/
 
 int _strlen(const char *str)
 {
