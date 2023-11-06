@@ -12,8 +12,6 @@
     <tbody>
         <tr>
             <td align="left">%s</td>
-            <td align="center">Column1</td>
-             <td align="left">%s</td>
         </tr>
     </tbody>
 </table>
