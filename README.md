@@ -6,7 +6,7 @@
 
 <h2 align="center">List of Format Specifiers</h2>
 
-| Format   Specifiers |
+| Format Specifiers | |
 | ------------- | ------------- |
 | %s  | Content Cell  |
 | %c  | Content Cell  |
