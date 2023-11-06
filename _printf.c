@@ -18,7 +18,8 @@
 
 int _printf(char *format, ...)
 {
-	int size, i, per;
+	int size = 0;
+	int i, per;
 	va_list args;
 
 	if (format == NULL)
