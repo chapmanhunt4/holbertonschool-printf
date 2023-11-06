@@ -2,7 +2,8 @@
 
 <h1 align="center">Indroduction</h1>
 
-![Format Spec](https://github.com/chapmanhunt4/holbertonschool-printf/assets/143765559/a89f3133-0734-40ce-9e32-dfe31d22f7a0)
+![Format Spec](https://github.com/chapmanhunt4/holbertonschool-printf/assets/143765559/70f4bc6e-eaa4-47e8-b5ca-681da95aeb1e)
+
 
 <p align="center">List of Format Specifiers</p>
 <table>
