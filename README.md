@@ -2,9 +2,7 @@
 ![PrintF](https://github.com/chapmanhunt4/holbertonschool-printf/assets/143765559/2ad1ca6d-3f10-432a-9c51-4cfb1dbf080e)
 
 <h2 align="center">Indroduction</h2>
-<p align="center">Our custom implentation of printf!</p>
-<p></p>
-
+<p align="center">We have created a custom implementation of our own printf function</p>
 <details><summary>Table of Contents</summary>
   
 - `Introduction`: <i>An introduction to our custom printf function</i>
