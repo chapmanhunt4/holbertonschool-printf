@@ -7,7 +7,7 @@
     <thead>
         <tr>
             <th align="left">Specifier</th>
-            <th align="center">%s</th>
+            <th align="center">-</th>
         </tr>
     </thead>
     <tbody>
