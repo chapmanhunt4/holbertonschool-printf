@@ -37,7 +37,11 @@ int print_string(va_list args)
 
 	str = va_arg(args, char *);
 
-	_putchar(*str);
-
-	return (1);
+	int size = 0;
+	for (int i = 0; str[i] != '\0'; i++)
+	{
+		_putchar(str[i]);
+		size++;
+	}
+	return (size);
 }
