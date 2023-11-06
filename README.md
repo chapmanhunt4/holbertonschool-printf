@@ -19,6 +19,16 @@
             <th align="left">%c</th>
         </tr>
     </thead>
+     <thead>
+        <tr>
+            <th align="left">%c</th>
+        </tr>
+    </thead>
+     <thead>
+        <tr>
+            <th align="left">%c</th>
+        </tr>
+    </thead>
 </table>
 
 
