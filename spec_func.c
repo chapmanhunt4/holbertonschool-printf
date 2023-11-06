@@ -38,12 +38,11 @@ int print_string(va_list args)
 	int size = 0;
 
 	str = va_arg(args, char *);
-	
 	if (str != NULL)
 	{
 		size = strlen(str);
 		for (i = 0; str[i] != '\0'; i++)
-		{ 
+		{
 			_putchar(str[i]);
 		}
 	}
@@ -51,7 +50,7 @@ int print_string(va_list args)
 	{
 		size = 6;
 		str = "(null)";
-		for (i=0; str[i] != '\0'; i++)
+		for (i = 0; str[i] != '\0'; i++)
 		{
 			_putchar(str[i]);
 		}
