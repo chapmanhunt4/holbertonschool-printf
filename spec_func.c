@@ -58,24 +58,3 @@ int print_string(va_list args)
 	return (size);
 	size++;
 }
-
-/**
- * print_digit - prints an integer
- * @args: va_list
- * Return: the input integer
- **/
-
-int print_digit(va_list args)
-{
-	int digit, i;
-	int size = 0;
-
-	digit = va_arg(args, int);
-
-	size = sizeof(digit);
-	for (i = 0; i < size; i++)
-	{
-		_putchar('0' + digit);
-	}
-	return (size);
-}
