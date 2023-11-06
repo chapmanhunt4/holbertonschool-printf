@@ -13,13 +13,13 @@
     <tbody>
         <tr>
             <td align="left">%s</td>
-             <th align="center">Format + print string</th>
+             <th align="center">Format + Print String</th>
         </tr>
     </tbody>
      <thead>
         <tr>
             <th align="left">%c</th>
-            <th align="center">Format + print string</th>
+            <th align="center">Format + Print Characters</th>
         </tr>
     </thead>
      <thead>
