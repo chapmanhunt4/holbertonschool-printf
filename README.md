@@ -16,7 +16,7 @@
 <h2 align="left">List of Format Specifiers</h2>
 
 | Format Specifiers | |
-| ------------- | ------------- |
+| ------------- | ------------- |             
 | %s  | Format / Print Strings  |
 | %c  | Format / Print Characters  |
 | %i  | Format / Print Integers  |
