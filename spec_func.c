@@ -38,15 +38,21 @@ int print_string(va_list args)
 	int size = 0;
 
 	str = va_arg(args, char *);
-
-	for (i = 0; str[i] != '\0'; i++)
+	
+	if (str != '\0')
 	{
-		if (str == "(null)")
+		for (i = 0; str[i] != '\0'; i++)
+		{ 
+			_putchar(str[i]);
+		}
+	else
+		str = "(null)"
+		for (i=0; str[i] != '\0'; i++)
 		{
 			_putchar(str[i]);
 		}
 	}
-	_putchar(str[i]);
+	return(size)
 	size++;
-	return (size);
 }
+
