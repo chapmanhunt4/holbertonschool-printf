@@ -14,9 +14,9 @@
 
 <h2 align="left">List of Format Specifiers</h2>
 
-| Format Specifiers | |
-| ------------- | ------------- |             
-| %s  | Format / Print Strings  |
+| Format Specifiers | |                            | Headers | |
+| ------------- | ------------- |                  | ------------- | ------------- |
+| %s  | Format / Print Strings  |                  | #include  |  "main.h"  |
 | %c  | Format / Print Characters  |
 | %i  | Format / Print Integers  |
 | %d  | Format / Print Decimal Numbers |
