@@ -7,6 +7,7 @@
     <thead>
         <tr>
             <th align="left">Format Specifier</th>
+            <th align="left"></th>
         </tr>
     </thead>
     <tbody>
@@ -18,16 +19,19 @@
      <thead>
         <tr>
             <th align="left">%c</th>
+            <th align="center">Format + print string</th>
         </tr>
     </thead>
      <thead>
         <tr>
             <th align="left">%d</th>
+            <th align="center">Format + print string</th>
         </tr>
     </thead>
      <thead>
         <tr>
             <th align="left">%i</th>
+            <th align="center">Format + print string</th>
         </tr>
     </thead>
 </table>
