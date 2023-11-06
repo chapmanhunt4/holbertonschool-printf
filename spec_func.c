@@ -41,8 +41,12 @@ int print_string(va_list args)
 
 	for (i = 0; str[i] != '\0'; i++)
 	{
-		_putchar(str[i]);
-		size++;
+		if (str == "(null)")
+		{
+			_putchar(str[i]);
+		}
 	}
+	_putchar(str[i]);
+	size++;
 	return (size);
 }
