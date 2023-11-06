@@ -34,11 +34,12 @@ int print_char(va_list args)
 int print_string(va_list args)
 {
 	char *str;
+	int i;
+	int size = 0;
 
 	str = va_arg(args, char *);
 
-	int size = 0;
-	for (int i = 0; str[i] != '\0'; i++)
+	for (i = 0; str[i] != '\0'; i++)
 	{
 		_putchar(str[i]);
 		size++;
