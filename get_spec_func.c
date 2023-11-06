@@ -24,7 +24,7 @@ int get_spec_func(char *str, va_list args, int i)
 		{"s", print_string},
 	};
 
-	i = i + 1;
+	i++;
 
 	if (str[i] == '\0')
 	{
@@ -33,6 +33,7 @@ int get_spec_func(char *str, va_list args, int i)
 	if (str[i] == '%')
 	{
 		_putchar('%');
+		i++;
 		return (1);
 	}
 
