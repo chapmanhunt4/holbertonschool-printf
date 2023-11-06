@@ -8,7 +8,6 @@
         <tr>
             <th align="left">Specifier</th>
             <th align="center">Column1</th>
-            <th align="right">Column1</th>
         </tr>
     </thead>
     <tbody>
