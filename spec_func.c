@@ -88,5 +88,5 @@ int print_digit(va_list args)
 	{
 		_putchar(buffer[i]);
 	}
-	return (number);
+	return (length);
 }
