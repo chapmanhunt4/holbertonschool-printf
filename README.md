@@ -8,7 +8,7 @@
   
 - `Introduction`: <i>An introduction to our custom printf function</i>
 - `Format Specifiers`: <i>The format specifiers that are used in our code</i>
-- `%s`: <i>Format and print strings.</i></details>
+- `FlowChart`: <i>A flow chart explaining the execution process of our function</i></details>
 
 
 <h2 align="left">List of Format Specifiers</h2>
