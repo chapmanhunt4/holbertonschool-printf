@@ -17,8 +17,6 @@ int _strlen(const char *str);
 
 int get_spec_func(char *str, va_list, int i);
 
-int print(char *str, va_list list);
-
 int print_char(va_list list);
 
 int print_string(va_list list);

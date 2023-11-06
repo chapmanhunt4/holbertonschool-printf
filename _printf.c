@@ -18,21 +18,30 @@
 
 int _printf(char *format, ...)
 {
-	int size;
+	int size, i, per;
 	va_list args;
 
 	if (format == NULL)
 		return (-1);
 
-	size = _strlen(format);
-	if (size <= 0)
-		return (0);
-
 	va_start(args, format);
-	size = print(format, args);
 
-	_putchar(-1);
+	for (i = 0; format[i] != '\0'; i++)
+	{
+		if (format[i] == '%')
+		{
+			per = get_spec_func(format, args, i);
+			if (per == -1)
+			{
+				va_end(args);
+				return (-1);
+			}
+			size += per;
+			continue;
+		}
+		_putchar(format[i]);
+		size++;
+	}
 	va_end(args);
-
 	return (size);
 }
