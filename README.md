@@ -22,7 +22,7 @@
 | %i  | Format / Print Integers  |
 | %d  | Format / Print Decimal Numbers |
 
-<h2>List of header files</h2>
+<h2>List of headers</h2>
 
 | Headers | |
 | ------------- | ------------- |
