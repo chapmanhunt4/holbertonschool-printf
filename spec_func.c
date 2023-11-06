@@ -70,8 +70,10 @@ int print_digit(va_list args)
 	int digit;
 
 	digit = va_arg(args, int);
-
-	_putchar('0' + digit);
-
-	return (1);
+	size = sizeof(digit);
+	for (i = 0; i < size; i++)
+	{
+		_putchar('0' + digit);
+	}
+	return (size);
 }
