@@ -7,12 +7,12 @@
     <thead>
         <tr>
             <th align="left">Format Specifier</th>
-            <th align="center">Format + print string
         </tr>
     </thead>
     <tbody>
         <tr>
             <td align="left">%s</td>
+             <th align="center">Format + print string
         </tr>
     </tbody>
      <thead>
