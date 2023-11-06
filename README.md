@@ -37,4 +37,6 @@
 </table>
 
 <h2>hello</h2>
-<li>hello</li>
+<details>
+    <li>hello</li>
+</details>
