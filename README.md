@@ -12,7 +12,7 @@
     </thead>
     <tbody>
         <tr>
-            <td align="left">Column1</td>
+            <td align="left">%s</td>
             <td align="center">Column1</td>
         </tr>
     </tbody>
