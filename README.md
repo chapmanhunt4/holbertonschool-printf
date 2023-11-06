@@ -14,6 +14,11 @@
             <td align="left">%s</td>
         </tr>
     </tbody>
+     <thead>
+        <tr>
+            <th align="left">Format Specifier</th>
+        </tr>
+    </thead>
 </table>
 
 
