@@ -7,6 +7,7 @@
     <thead>
         <tr>
             <th align="left">Format Specifier</th>
+              <th align="left"></th>
         </tr>
     </thead>
     <tbody>
