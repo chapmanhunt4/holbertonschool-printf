@@ -2,7 +2,6 @@
 
 <h1 align="center">Written by Jacob Leon and Chapman Hunt</h1>
 
-
 <table>
     <thead>
         <tr>
