@@ -36,10 +36,4 @@
     </thead>
 </table>
 
-
-
-<p> * Bullet list
-              * Nested bullet
-                  * Sub-nested bullet etc
-          * Bullet list item 2
-</p>
+<h2>hhh</h2>
