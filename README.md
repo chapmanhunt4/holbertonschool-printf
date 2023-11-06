@@ -5,6 +5,7 @@
 <p></p>
 
 <h2 align="center">List of Format Specifiers</h2>
+
 | First Header  | Second Header |
 | ------------- | ------------- |
 | Content Cell  | Content Cell  |
