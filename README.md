@@ -36,6 +36,5 @@
     </thead>
 </table>
 
-<h2><li>What does printf do exactly?</li></h2>
-<p>Printf is used to print formatted output to the standard output </p>
+<h2>Information on how the code excutes</h2>
 
