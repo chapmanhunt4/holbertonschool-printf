@@ -13,7 +13,7 @@
     <tbody>
         <tr>
             <td align="left">%s</td>
-             <th align="center">Format + print string
+             <th align="center">Format + print string</th>
         </tr>
     </tbody>
      <thead>
