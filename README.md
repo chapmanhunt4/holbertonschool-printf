@@ -37,6 +37,6 @@
 </table>
 
 <h2>hello</h2>
-- ho
-- h
-- h
+<details>
+    * hello
+</details>
