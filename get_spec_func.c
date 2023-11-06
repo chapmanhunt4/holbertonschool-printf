@@ -22,6 +22,8 @@ int get_spec_func(char *str, va_list args, int i)
 	format formats[] = {
 		{"c", print_char},
 		{"s", print_string},
+		{"d", print_digit},
+		{"i", print_digit},
 	};
 
 	i++;
