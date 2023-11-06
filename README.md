@@ -36,6 +36,6 @@
     </thead>
 </table>
 
-<h2 align="center">How our code excutes</h2>
+<p align="center">How our code excutes</p>
 
 ![Flowcharts](https://github.com/chapmanhunt4/holbertonschool-printf/assets/143765559/2b4c7e3f-1786-4fa2-95dd-66bc66415a4a)
