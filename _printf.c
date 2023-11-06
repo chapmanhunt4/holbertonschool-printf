@@ -46,13 +46,4 @@ int _printf(char *format, ...)
 	}
 	va_end(args);
 	return (size);
-   }
-   for (; format[i] != '\0'; i++)
-   {
-       _putchar(format[i]);
-       size++;
-   }
-
-   va_end(args);
-   return (size);
 }
