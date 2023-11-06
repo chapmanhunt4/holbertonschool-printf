@@ -6,7 +6,7 @@
 <table>
     <thead>
         <tr>
-            <th align="left">Specifier</th>
+            <th align="left">Format Specifier</th>
             <th align="center">-</th>
         </tr>
     </thead>
