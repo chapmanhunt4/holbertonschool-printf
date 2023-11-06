@@ -6,7 +6,7 @@
 #include <unistd.h>
 #include <string.h>
 /**
- * get_spec_func - points to the proper function based 
+ * get_spec_func - points to the proper function based
  * on format specifier
  * @str: string being printed
  * @args: va list
