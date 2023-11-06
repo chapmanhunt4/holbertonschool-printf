@@ -64,7 +64,7 @@ int print_string(va_list args)
  * @args: va_list
  **/
 
-void print_digit(va_list args)
+int print_digit(va_list args)
 {
 	int number, i;
 	int length = 0;
@@ -88,4 +88,5 @@ void print_digit(va_list args)
 	{
 		_putchar(buffer[i]);
 	}
+	return (number);
 }
