@@ -1,13 +1,11 @@
 
 ![PrintF](https://github.com/chapmanhunt4/holbertonschool-printf/assets/143765559/2ad1ca6d-3f10-432a-9c51-4cfb1dbf080e)
 
-
-
 <h2 align="center">Indroduction</h2>
 <p></p>
 
 <h2 align="center">List of Format Specifiers</h2>
-
+<p></p>
 
 <h2 align="center">FlowChart</h2>
 
