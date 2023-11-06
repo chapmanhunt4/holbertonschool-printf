@@ -14,7 +14,6 @@
         <tr>
             <td align="left">Column1</td>
             <td align="center">Column1</td>
-            <td align="right">Column1</td>
         </tr>
     </tbody>
 </table>
