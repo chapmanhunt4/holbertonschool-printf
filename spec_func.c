@@ -72,4 +72,6 @@ int print_digit(va_list args)
 	digit = va_arg(args, int);
 
 	_putchar('0' + digit);
+
+	return (1);
 }
