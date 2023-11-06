@@ -1,26 +1,54 @@
 #include "main.h"
 #include <stdarg.h>
+#include <stdio.h>
+#include <unistd.h>
+#include <limits.h>
+#include <stddef.h>
+#include <string.h>
+#include <stdlib.h>
 
-// Add this line to declare the _strlen function
-int _strlen(const char *s);
+/**
+ * _printf - Produces output according to a format
+ * @format: Is a character string. The format string
+ * is composed of zero or more directives
+ *
+ * Return: The number of characters printed (excluding
+**/
 
-int _printf(const char *format, ...)
+int _printf(char *format, ...)
 {
-   int size;
+   int size = 0;
+   int i, per;
    va_list args;
 
    if (format == NULL)
        return (-1);
 
-   size = _strlen(format);
-   if (size <= 0)
-       return (0);
-
    va_start(args, format);
-   size = print(format, args);
 
-   _putchar(-1);
+   for (i = 0; format[i] != '\0'; i++)
+   {
+       if (format[i] == '%')
+       {
+           per = get_spec_func(format, args, i);
+           if (per == -1)
+           {
+               va_end(args);
+               return (-1);
+           }
+           size += per;
+           i++;
+           continue;
+       }
+       _putchar(format[i]);
+       size++;
+   }
+   for (; format[i] != '\0'; i++)
+   {
+       _putchar(format[i]);
+       size++;
+   }
+
    va_end(args);
-
    return (size);
 }
