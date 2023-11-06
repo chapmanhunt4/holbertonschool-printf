@@ -4,10 +4,10 @@
 <h2 align="center">Indroduction</h2>
 <p align="center">Our custom implentation of printf</p>
 
-<details><summary>Table of Content</summary>
+<details><summary>Table of Contents</summary>
   
-- `Introduction`: <i>Format and print strings.</i>
-- `Format Specifiers`: <i>Format and print strings.</i>
+- `Introduction`: <i>An introduction to our custom printf function</i>
+- `Format Specifiers`: <i>The format specifiers that are used in our code</i>
 - `%s`: <i>Format and print strings.</i></details>
 
 
