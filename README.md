@@ -26,10 +26,14 @@
 
 | Headers | |
 | ------------- | ------------- |
-| %s  | Format / Print Strings  |
-| %c  | Format / Print Characters  |
-| %i  | Format / Print Integers  |
-| %d  | Format / Print Decimal Numbers |
+| #include  |  "main.h"  |
+| #include  |  <stdio.h> |
+| #include  | <stdlib.h> |
+| #include  | <string.h> |
+| #include  | <stdarg.h> |
+| #include  | <unistd.h> |
+| #include  | <limits.h> |
+| #include  | <stddef.h> |
 
 <h2 align="center">FlowChart</h2>
 
