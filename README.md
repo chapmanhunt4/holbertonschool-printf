@@ -5,7 +5,6 @@
 <p align="center">Our custom implentation of printf!</p>
 <p></p>
 
-<b></b>
 <details><summary>Table of Contents</summary>
   
 - `Introduction`: <i>An introduction to our custom printf function</i>
