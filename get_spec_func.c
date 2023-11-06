@@ -33,7 +33,7 @@ int get_spec_func(char *str, va_list args, int i)
 		if (str[i] == formats[j].type[0])
 		{
 			size = formats[j].f(args);
-			return (size - 1);
+			return (size);
 		}
 	}
 	_putchar('%'), _putchar(str[i]);

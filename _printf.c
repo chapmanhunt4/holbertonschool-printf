@@ -38,6 +38,7 @@ int _printf(char *format, ...)
 				return (-1);
 			}
 			size += per;
+			i++;
 			continue;
 		}
 		_putchar(format[i]);
