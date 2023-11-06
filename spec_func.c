@@ -59,3 +59,17 @@ int print_string(va_list args)
 	size++;
 }
 
+/**
+ * print_digit - prints an integer
+ * @args: va_list
+ * Return: the input integer
+ **/
+
+int print_digit(va_list args)
+{
+	int digit;
+
+	digit = va_arg(args, int);
+
+	_putchar('0' + digit);
+}
