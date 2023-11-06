@@ -7,7 +7,7 @@
 <details><summary>Table of Content</summary>
 - `Introduction`: <i>Format and print strings.</i>
 - `Format Specifiers`: <i>Format and print strings.</i>
-- `%s`: <i>Format and print strings.</i>
+- `%s`: <i>Format and print strings.</i></details>
 
 
 <h2 align="left">List of Format Specifiers</h2>
