@@ -3,6 +3,7 @@
 
 <h2 align="center">Indroduction</h2>
 <p align="center">Our custom implentation of printf</p>
+<h4 align="center">Table of Content</h4>
 
 
 <h2 align="left">List of Format Specifiers</h2>
