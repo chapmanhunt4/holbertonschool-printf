@@ -2,7 +2,7 @@
 
 <h1 align="center">Indroduction</h1>
 
-<p>List of Format Specifiers</p>
+<p align="center">IList of Format Specifiers</p>
 <table>
     <thead>
         <tr>
