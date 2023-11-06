@@ -8,8 +8,10 @@
 
 | Format Specifiers | |
 | ------------- | ------------- |
-| %s  | Content Cell  |
-| %c  | Content Cell  |
+| %s  | Format / Print Strings  |
+| %c  | Format / Print Characters  |
+| %i  | Format / Print Integers  |
+| %d  | Format / Print Decimal Numbers |
 <p></p>
 
 <h2 align="center">FlowChart</h2>
