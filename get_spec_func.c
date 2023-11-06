@@ -47,5 +47,5 @@ int get_spec_func(char *str, va_list args, int i)
 	}
 	_putchar('%'), _putchar(str[i]);
 
-	return (0);
+	return (2);
 }
