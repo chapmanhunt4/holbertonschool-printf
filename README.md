@@ -1,4 +1,4 @@
-![header](https://capsule-render.vercel.app/api?type=soft&color=0:EEFF00,100:a82da8&height=250&section=header&text=Printf%20&fontSize=60&desc=Written%20by%20Jacob%20leon%20and%20Chapman%20Hunt%20&animation=fadeIn)
+![Printf](https://github.com/chapmanhunt4/holbertonschool-printf/assets/143765559/b146880a-c9a2-4cfd-972f-8ee6c527cd09)
 
 <h1>Indroduction</h1>
 
