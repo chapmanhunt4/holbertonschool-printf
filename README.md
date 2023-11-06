@@ -13,25 +13,25 @@
     <tbody>
         <tr>
             <td align="left">%s</td>
-             <th align="center">Format + Print String</th>
+             <th align="center">Format / Print String</th>
         </tr>
     </tbody>
      <thead>
         <tr>
             <th align="left">%c</th>
-            <th align="center">Format + Print Characters</th>
+            <th align="center">Format / Print Characters</th>
         </tr>
     </thead>
      <thead>
         <tr>
             <th align="left">%d</th>
-            <th align="center">Format + print string</th>
+            <th align="center">Format / Print Decimal Numbers</th>
         </tr>
     </thead>
      <thead>
         <tr>
             <th align="left">%i</th>
-            <th align="center">Format + print string</th>
+            <th align="center">Format / Print Integers</th>
         </tr>
     </thead>
 </table>
