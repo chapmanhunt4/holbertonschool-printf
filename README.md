@@ -36,7 +36,7 @@
     </thead>
 </table>
 
-<h2>hello</h2>
+<h2>What does printf do exactly?</h2>
 <details>
     <li>hello</li>
 </details>
