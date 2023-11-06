@@ -3,6 +3,7 @@
 <h1 align="center">Indroduction</h1>
 
 <p align="center">List of Format Specifiers</p>
+
 ![Format Spec](https://github.com/chapmanhunt4/holbertonschool-printf/assets/143765559/70f4bc6e-eaa4-47e8-b5ca-681da95aeb1e)
 
 <h2 align="center">FlowChart</h2>
