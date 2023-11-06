@@ -6,10 +6,10 @@
 
 <h2 align="center">List of Format Specifiers</h2>
 
-| First Header  | Second Header |
+| Format  | Specifiers |
 | ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+| %s  | Content Cell  |
+| %c  | Content Cell  |
 <p></p>
 
 <h2 align="center">FlowChart</h2>
