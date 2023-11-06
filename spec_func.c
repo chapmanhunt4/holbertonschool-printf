@@ -39,14 +39,23 @@ int print_string(va_list args)
 
 	str = va_arg(args, char *);
 
-	for (i = 0; str[i] != '\0'; i++)
+	if (str != NULL)
 	{
-		if (str == "(null)")
+		size = strlen(str);
+		for (i = 0; str[i] != '\0'; i++)
 		{
 			_putchar(str[i]);
 		}
 	}
-	_putchar(str[i]);
-	size++;
+	else
+	{
+		size = 6;
+		str = "(null)";
+		for (i=0; str[i] != '\0'; i++)
+		{
+			_putchar(str[i]);
+		}
+	}
 	return (size);
+	size++;
 }
