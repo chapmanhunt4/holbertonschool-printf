@@ -3,7 +3,11 @@
 
 <h2 align="center">Indroduction</h2>
 <p align="center">Our custom implentation of printf</p>
-<h4 align="center">Table of Content</h4>
+<h4 align="left">Table of Content</h4>
+<details>
+  - `Introduction`: <i>Information about the custom function "printf"</i>
+  
+</details>
 
 
 <h2 align="left">List of Format Specifiers</h2>
