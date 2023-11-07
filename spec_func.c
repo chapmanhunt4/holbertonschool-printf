@@ -75,18 +75,19 @@ int print_digit(va_list args)
 	{
 		_putchar('-');
 		number = -number;
+		size++;
 	}
 
 	do 
 	{
-		buffer[length++] = '0' + (number % 10);
+		buffer[size++] = '0' + (number % 10);
 		number /= 10;
 	}
 	while (number > 0);
 
-	for (i = length - 1; i >= 0; i--)
+	for (i = size - 1; i >= 0; i--)
 	{
 		_putchar(buffer[i]);
 	}
-	return (length);
+	return (size);
 }
