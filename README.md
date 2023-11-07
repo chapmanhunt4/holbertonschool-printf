@@ -37,11 +37,13 @@
 
 <h3 align="left">Prototype's</h2>
 
-- `File - get_spec_func.c`: <i>int get_spec_func(char *str, va_list args, int i)</i>
-- `Format Specifiers`: <i>The format specifiers that are used in our code</i>
-- `Headers`: <i>The Headers we implemented</i>
-- `FlowChart`: <i>A flow chart explaining the execution process of our function</i>
-- `Clone REPO`: <i>link to clone this repo</i></details>
+- `get_spec_func`: <i>int get_spec_func(char *str, va_list args, int i)</i>
+- `print_char`: <i>int print_char(va_list args)</i>
+- `print_string`: <i>int print_string(va_list args)</i>
+- `print_number`: <i>int print_digit(va_list args)</i>
+- `_putchar`: <i>int _putchar(char c)</i></details>
+- `_strlen`: <i>int _strlen(const char *str)</i></details>
+- `_printf`: <i>int _printf(char *format, ...)</i></details>
 
 
 
