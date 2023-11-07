@@ -6,7 +6,7 @@
 
 <details><summary>Table of Contents</summary>
   
-- `Introduction`: <i>An introduction to our custom printf function</i>
+- `1. Introduction`: <i>An introduction to our custom printf function</i>
 - `Format Specifiers`: <i>The format specifiers that are used in our code</i>
 - `Headers`: <i>The Headers we implemented</i>
 - `FlowChart`: <i>A flow chart explaining the execution process of our function</i>
