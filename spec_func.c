@@ -74,12 +74,14 @@ int print_digit(va_list args)
         if (number == INT_MIN)
         {
                 size++;
+		_putchar('-');
                 number = -(number + 1);
                 size++;
         }
         else if (number < 0)
         {
                 size++;
+		_putchar('-');
                 number = -number;
         }
 
