@@ -66,9 +66,8 @@ int print_string(va_list args)
 
 int print_digit(va_list args)
 {
-        int number, i;
+        int number, i, temp;
         int size = 0;
-	long long temp;
 	char buffer[20];
 
         number = va_arg(args, int);
