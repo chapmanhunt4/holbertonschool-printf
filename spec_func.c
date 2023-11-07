@@ -66,9 +66,8 @@ int print_string(va_list args)
 
 int print_digit(va_list args)
 {
-        int number, i;
+        int number;
         int size = 0;
-        char buffer[20];
 
         number = va_arg(args, int);
         if (number == INT_MIN)
