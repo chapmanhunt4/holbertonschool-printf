@@ -66,8 +66,9 @@ int print_string(va_list args)
 
 int print_digit(va_list args)
 {
-        int number;
+        int number, i;
         int size = 0;
+	char buffer[20];
 
         number = va_arg(args, int);
         if (number == INT_MIN)
@@ -84,10 +85,14 @@ int print_digit(va_list args)
 
         do
         {
-                size++;
+                buffer[size++] = '0' + (number % 10);
                 number /= 10;
         }
-        while (number > 0);
+        while (number > 0)
 
-        return (size);
+	for (i = size - 1; i >= 0; i--)
+	{
+		_putchar(buffer[i];
+	}
+	return (size);
 }
