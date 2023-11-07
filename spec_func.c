@@ -92,7 +92,7 @@ int print_digit(va_list args)
 
 	for (i = size - 1; i >= 0; i--)
 	{
-		_putchar(buffer[i];
+		_putchar(buffer[i]);
 	}
 	return (size);
 }
