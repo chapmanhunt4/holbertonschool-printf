@@ -13,7 +13,7 @@
 - `Clone REPO`: <i>link to clone this repo</i></details>
 
 
-<h2 align="left">List of Format Specifiers</h2>
+<h3 align="left">List of Format Specifiers</h3>
 
 | Format Specifiers | |
 | ------------- | ------------- |                
@@ -22,7 +22,7 @@
 | %i  | Format / Print Integers  |
 | %d  | Format / Print Decimal Numbers |
 
-<h2>List of headers</h2>
+<h3>List of headers</h3>
 
 | Headers | |
 | ------------- | ------------- |
@@ -53,7 +53,7 @@
 
 
 
-<h2 align="center">FlowChart</h2>
+<h3 align="center">FlowChart</h3>
 <p align="center">This flowchart is the process we went through while creating the printf function. This is also how the code is executed</p>
 
 ![Flowcharts](https://github.com/chapmanhunt4/holbertonschool-printf/assets/143765559/2b4c7e3f-1786-4fa2-95dd-66bc66415a4a)
