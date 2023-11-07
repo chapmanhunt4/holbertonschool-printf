@@ -75,14 +75,15 @@ int print_digit(va_list args)
         {
                 _putchar('-');
 		size++;
-                number = number * -1;
+                number = -(number + 1);
                 size++;
+		buffer[size++] = '2';
         }
         else if (number < 0)
         {
                 _putchar('-');
 		size++;
-                number = number * -1;
+                number = -number;
         }
 
         do
@@ -90,7 +91,7 @@ int print_digit(va_list args)
                 buffer[size++] = '0' + (number % 10);
                 number /= 10;
         }
-        while (number > 0);
+	while (number > 0);
 
 	for (i = size - 1; i >= 0; i--)
 	{
