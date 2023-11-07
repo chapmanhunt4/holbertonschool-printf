@@ -68,8 +68,6 @@ int print_digit(va_list args)
 {
         int number, abs, abs_temp, track_dig;
         int size = 0;
-	unsigned long temp;
-	char buffer[20];
 
         number = va_arg(args, int);
         if (number == INT_MIN) {	
