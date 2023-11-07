@@ -84,6 +84,7 @@ int print_digit(va_list args)
                 _putchar('-');
 		size++;
                 number = -number;
+		size++;
         }
 
         do
