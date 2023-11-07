@@ -58,36 +58,3 @@ int print_string(va_list args)
 	return (size);
 	size++;
 }
-
-/**
- * print_number - prints a number
- * @args: va_list
- **/
-
-int print_digit(va_list args)
-{
-	int number, i;
-	int size = 0;
-	char buffer[20];
-
-	number = va_arg(args, int);
-	if (number < 0)
-	{
-		_putchar('-');
-		number = -number;
-	}
-
-	do 
-	{
-		buffer[size++] = '0' + (number % 10);
-		number /= 10;
-	}
-	while (number > 0);
-
-	for (i = size - 1; i >= 0; i--)
-	{
-		_putchar(buffer[i]);
-	}
-	return (size);
-	size++;
-}
