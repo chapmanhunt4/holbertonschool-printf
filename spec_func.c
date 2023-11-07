@@ -73,28 +73,22 @@ int print_digit(va_list args)
         number = va_arg(args, int);
         if (number == INT_MIN)
         {
-                _putchar('-');
+                size++;
                 number = -(number + 1);
                 size++;
-                buffer[size++] = '2';
         }
         else if (number < 0)
         {
-                _putchar('-');
-                number = -number;
                 size++;
+                number = -number;
         }
 
         do
         {
-                buffer[size++] = '0' + (number % 10);
+                size++;
                 number /= 10;
         }
         while (number > 0);
 
-        for (i = size - 1; i >= 0; i--)
-        {
-                _putchar(buffer[i]);
-        }
         return (size);
 }
