@@ -68,20 +68,20 @@ int print_digit(va_list args)
 {
         int number, i;
         int size = 0;
-	char buffer[40];
+	char buffer[20];
 
         number = va_arg(args, int);
         if (number == INT_MIN)
         {
-                size++;
-		_putchar('-');
+                _putchar('-');
+		size++;
                 number = -(number + 1);
                 size++;
         }
         else if (number < 0)
         {
-                size++;
-		_putchar('-');
+                _putchar('-');
+		size++;
                 number = -number;
         }
 
