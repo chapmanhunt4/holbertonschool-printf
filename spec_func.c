@@ -77,7 +77,6 @@ int print_digit(va_list args)
                 temp = number;
 		temp = temp + 1;
                 size++;
-		buffer[size++] = '2';
 
 		number = (int)temp;
         }
