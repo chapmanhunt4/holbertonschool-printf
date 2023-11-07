@@ -71,12 +71,12 @@ int print_digit(va_list args)
 
         number = va_arg(args, int);
         if (number == INT_MIN) {	
-		putchar ('-');
+		_putchar ('-');
 		size++;
 		abs = INT_MAX;
 	}
 	else if (number < 0) {
-		putchar('-');
+		_putchar('-');
 		size++;
 		abs = number * -1;
 	}
@@ -93,13 +93,13 @@ int print_digit(va_list args)
 	while (track_dig >= 1) {
 		if (number == INT_MIN && track_dig == 1)
 		{
-			putchar('8');
+			_putchar('8');
 			size++;
 			track_dig = track_dig / 10;
 		}
 		else{
 			size++;
-			putchar(((abs / track_dig) % 10) + '0');
+			_putchar(((abs / track_dig) % 10) + '0');
 			track_dig = track_dig / 10;
 		}
 	}
