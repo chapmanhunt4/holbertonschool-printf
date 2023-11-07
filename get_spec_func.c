@@ -6,8 +6,6 @@
 #include <unistd.h>
 #include <string.h>
 
-int print_digit(va_list args)
-
 /**
  * get_spec_func - points to the proper function based
  * on format specifier
