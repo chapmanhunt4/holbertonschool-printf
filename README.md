@@ -35,7 +35,13 @@
 | #include  | <limits.h> |
 | #include  | <stddef.h> |
 
-<h3 align="center">get_spec_fun.c</h2>
+<h3 align="left">Prototype's</h2>
+
+- `Introduction`: <i>An introduction to our custom printf function</i>
+- `Format Specifiers`: <i>The format specifiers that are used in our code</i>
+- `Headers`: <i>The Headers we implemented</i>
+- `FlowChart`: <i>A flow chart explaining the execution process of our function</i>
+- `Clone REPO`: <i>link to clone this repo</i></details>
 
 
 
