@@ -35,7 +35,7 @@
 | #include  | <limits.h> |
 | #include  | <stddef.h> |
 
-<h2 align="center">get_spec_fun.c</h2>
+<h3 align="center">get_spec_fun.c</h2>
 
 
 
