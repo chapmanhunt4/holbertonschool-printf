@@ -66,39 +66,44 @@ int print_string(va_list args)
 
 int print_digit(va_list args)
 {
-        int number, i;
+        int number, abs, abs_temp, track_dig;
         int size = 0;
 	unsigned long temp;
 	char buffer[20];
 
         number = va_arg(args, int);
-        if (number == INT_MIN)
-        {
-                _putchar('-');
-                temp = number;
-		temp = -(temp + 1);
-                size++;
-		buffer[size++] = '8';
-
-		number = (int)temp;
-        }
-        else if (number < 0)
-        {
-                _putchar('-');
+        if (number == INT_MIN) {	
+		putchar ('-');
 		size++;
-                number = -number;
-        }
+		abs = INT_MAX;
+	}
+	else if (number < 0) {
+		putchar('-');
+		size++;
+		abs = number * -1;
+	}
+	else {
+		abs = number;
+	}
+	abs_temp = abs;
+	track_dig = 1;
 
-        do
-        {
-                buffer[size++] = '0' + (number % 10);
-                number /= 10;
-        }
-	while (number > 0);
-
-	for (i = size - 1; i >= 0; i--)
-	{
-		_putchar(buffer[i]);
+	while (abs_temp > 9) {
+		abs_temp = abs_temp / 10;
+		track_dig = track_dig * 10;
+	}
+	while (track_dig >= 1) {
+		if (number == INT_MIN && track_dig == 1)
+		{
+			putchar('8');
+			size++;
+			track_dig = track_dig / 10;
+		}
+		else{
+			size++;
+			putchar(((abs / track_dig) % 10) + '0');
+			track_dig = track_dig / 10;
+		}
 	}
 	return (size);
 }
