@@ -76,8 +76,9 @@ int print_digit(va_list args)
         {
                 _putchar('-');
                 temp = number;
-		temp = temp + 1;
+		temp = -(temp + 1);
                 size++;
+		buffer[size++] = '2';
 
 		number = (int)temp;
         }
