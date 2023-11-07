@@ -75,7 +75,6 @@ int print_digit(va_list args)
 	{
 		_putchar('-');
 		number = -number;
-		size++;
 	}
 
 	do 
@@ -90,4 +89,5 @@ int print_digit(va_list args)
 		_putchar(buffer[i]);
 	}
 	return (size);
+	size++;
 }
