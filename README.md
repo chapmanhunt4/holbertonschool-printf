@@ -37,7 +37,7 @@
 
 <h3 align="left">Prototype's</h2>
 
-- `File - get_spec_func.c`: <i>An introduction to our custom printf function</i>
+- `File - get_spec_func.c`: <i>int get_spec_func(char *str, va_list args, int i)</i>
 - `Format Specifiers`: <i>The format specifiers that are used in our code</i>
 - `Headers`: <i>The Headers we implemented</i>
 - `FlowChart`: <i>A flow chart explaining the execution process of our function</i>
