@@ -74,7 +74,6 @@ int print_digit(va_list args)
         if (number == INT_MIN)
         {
                 _putchar('-');
-		size++;
                 number = -(number + 1);
                 size++;
 		buffer[size++] = '2';
@@ -84,7 +83,6 @@ int print_digit(va_list args)
                 _putchar('-');
 		size++;
                 number = -number;
-		size++;
         }
 
         do
