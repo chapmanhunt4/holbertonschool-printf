@@ -88,7 +88,7 @@ int print_digit(va_list args)
                 buffer[size++] = '0' + (number % 10);
                 number /= 10;
         }
-        while (number > 0)
+        while (number > 0);
 
 	for (i = size - 1; i >= 0; i--)
 	{
