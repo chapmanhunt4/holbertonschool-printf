@@ -96,5 +96,5 @@ int print_digit(va_list args)
 	{
 		_putchar(buffer[i]);
 	}
-	return (size);
+	return (size - 1);
 }
