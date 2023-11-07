@@ -75,14 +75,14 @@ int print_digit(va_list args)
         {
                 _putchar('-');
 		size++;
-                number = -(number + 1);
+                number = number * -1;
                 size++;
         }
         else if (number < 0)
         {
                 _putchar('-');
 		size++;
-                number = -number;
+                number = number * -1;
         }
 
         do
